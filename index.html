@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Diagonal of the square: 
+        <script>
+            function calculateDiagonal(){
+                return Math.sqrt(2) * 9 ;
+            }
+            document.write(calculateDiagonal().toFixed(6));
+        </script>
+    </div>
+    <br>
+    <div>
+        Area of Triangle: 
+        <script>    
+            function areaOfTriangle(){
+                s = (5 +6 +7) / 2; //calculating the semiperimete - s;
+                return Math.sqrt(s * (s-5) *(s-6) * (s-7));     
+            }
+            document.write(areaOfTriangle().toFixed(6));
+        </script>
+    </div>
+    <br>
+    <div>
+        Circumference of Circle:    
+        <script>
+            function calculateCircumference(){
+                return 2* Math.PI * 4
+            }
+            document.write(calculateCircumference().toFixed(6));
+        </script>
+    </div>
+    <br>
+    <div>
+        Area of Circle: 
+        <script>
+            function areaOfCircle(){
+                return Math.PI * Math.pow(4,2);
+            }
+            document.write(areaOfCircle().toFixed(6));
+        </script>
+    </div>
+    <br>
+</body>
+</html>

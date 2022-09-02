@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let firstInt= prompt("Please enter an Integer: ")
+        let secondInt = prompt("Please enter an integer: ")
+        function maxNum(arr){
+            max = arr[0];
+            for( let i=0; i <  arr.length; i++){
+                
+                if ( max > arr[i]){
+                    arr[i] = max 
+            }
+            max = arr[i]
+            }
+            return max;
+        }
+        document.write(maxNum([firstInt,secondInt]))
+    </script>
+    <br>
+    <script>
+        let integer = prompt("Enter an integer to check if its even or odd: ")
+        function isEven(num){
+            return num % 2 === 0 ?  "even" : "odd";
+        }
+        document.write(isEven(integer))
+    </script>
+</body>
+</html>
